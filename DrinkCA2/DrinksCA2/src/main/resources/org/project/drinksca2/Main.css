@@ -1,0 +1,72 @@
+/* Root AnchorPane styling */
+.anchor-pane {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10;
+}
+
+/* TabPane styling */
+.tab-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+}
+
+/* Tabs styling */
+.tab {
+    -fx-background-color: #e6e6e6;
+    -fx-border-color: transparent;
+}
+.tab:selected {
+    -fx-background-color: #d4d4d4;
+    -fx-border-color: #cccccc;
+}
+
+/* ListView styling */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #0073e6;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+.button:pressed {
+    -fx-background-color: #003f7f;
+}
+
+/* TextField styling */
+.text-field {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3;
+    -fx-padding: 3;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* ButtonBar styling */
+.button-bar {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+/* Search Label styling */
+.label.search-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
